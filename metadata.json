@@ -1,0 +1,5 @@
+{
+  "name": "Celestial Journey 3D",
+  "description": "An interactive 3D solar system exploration tool featuring glowing celestial bodies, smooth camera transitions, and AI-powered planetary facts using Gemini.",
+  "requestFramePermissions": []
+}
