@@ -214,7 +214,7 @@ const SolarSystem: React.FC<SolarSystemProps> = ({ focusedId, onSelect, timeMult
       ))}
 
       <Environment preset="night" />
-      <EffectComposer disableNormalPass>
+      <EffectComposer enableNormalPass={false}>
         <Bloom 
           intensity={bloomIntensity} 
           luminanceThreshold={0.1} 
